@@ -1,0 +1,48 @@
+✅ DCL (Data Control Language)
+목적: 데이터베이스의 접근 권한을 제어
+주요 명령어:
+GRANT: 사용자에게 권한 부여
+REVOKE: 사용자에게 부여된 권한 취소
+✅ DDL (Data Definition Language)
+목적: 데이터베이스의 **구조(스키마)**를 정의하거나 변경
+주요 명령어:
+CREATE: 테이블, 뷰, 인덱스 등 생성
+ALTER: 기존 객체 수정
+DROP: 객체 삭제
+TRUNCATE: 테이블의 모든 데이터 삭제 (구조는 유지)
+✅ DML (Data Manipulation Language)
+목적: 데이터베이스의 데이터를 조작
+주요 명령어:
+SELECT: 데이터 조회
+INSERT: 데이터 삽입
+UPDATE: 데이터 수정
+DELETE: 데이터 삭제
+✅ JDBC (Java Database Connectivity)
+목적: 자바(Java) 프로그램에서 데이터베이스와 연결하고 SQL을 실행할 수 있도록 해주는 API
+특징:
+다양한 DBMS(MySQL, Oracle 등)와 연결 가능
+SQL 실행, 결과 처리, 트랜잭션 관리 등을 지원
+✅ DAO (Data Access Object)
+목적: 애플리케이션에서 데이터베이스 접근을 캡슐화하는 디자인 패턴
+역할:
+DB 접근 로직을 분리하여 코드의 유지보수성과 재사용성 향상
+예: UserDAO, ProductDAO 등으로 각 테이블에 대한 CRUD 기능 구현
+✅ 터미널이란?
+정의: 사용자가 **명령어(Command)**를 입력해서 컴퓨터를 조작할 수 있는 텍스트 기반 인터페이스
+다른 이름들:
+macOS: Terminal
+Windows: 명령 프롬프트 (CMD), PowerShell, Windows Terminal
+Linux: Shell, Bash, Konsole 등
+🧭 터미널로 할 수 있는 일
+작업 예시	설명
+cd	폴더 이동 (Change Directory)
+ls	현재 폴더의 파일 목록 보기 (List)
+mkdir	새 폴더 만들기 (Make Directory)
+rm	파일 또는 폴더 삭제 (Remove)
+git	Git 명령어 실행 (버전 관리)
+python, java	프로그램 실행
+ssh	원격 서버 접속
+📌 왜 터미널을 사용할까?
+빠르고 강력함: 마우스로 클릭하는 것보다 더 많은 작업을 빠르게 처리 가능
+개발자 필수 도구: 프로그래밍, 서버 관리, Git 사용 등에 필수
+자동화 가능: 스크립트를 통해 반복 작업을 자동화할 수 있음
